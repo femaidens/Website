@@ -1,0 +1,39 @@
+.navbar-inverse {
+	background-color: #79509F;
+	border: none;
+}
+
+@media (min-width: 768px) {
+  body > .container {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  body > .container {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  body > .container {
+    width: 1170px;
+  }
+}
+
+nav.navbar.shrink {
+  min-height: 35px;
+}
+
+nav.shrink a {
+  padding-top: 10px !important;
+  padding-bottom: 10px !important;
+  font-size: 15px;
+}
+
+nav.shrink .navbar-brand {
+  font-size: 25px;
+}
+
+nav.shrink .navbar-toggle {
+  padding: 4px 5px;
+  margin: 8px 15px 8px 0;
+}
