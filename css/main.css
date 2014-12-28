@@ -47,10 +47,6 @@
   margin-bottom: 0;
 }
 
-.navbar-nav {
-  margin: 0 -15px;
-}
-
 .collapse .navbar-nav > li > a {
   line-height: 60px;
   font-size: 1.2em;
