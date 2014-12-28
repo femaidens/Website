@@ -74,6 +74,7 @@
 
 .navbar-toggle {
   margin: 28px 15px 0 0;
+  background-color: #79509F;
 }
 
 .navbar-collapse {
@@ -116,4 +117,13 @@ nav.shrink .navbar-toggle {
 
 .in .navbar-nav .open .dropdown-menu > li > a {
   color: #fff;
+}
+
+.navbar-inverse .navbar-toggle:hover,
+.navbar-inverse .navbar-toggle:focus {
+  background-color: #936AB9;
+}
+
+.navbar-inverse .navbar-toggle:active {
+  background-color: #79509F;
 }
