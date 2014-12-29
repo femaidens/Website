@@ -24,16 +24,16 @@ body {
 
 @media (min-width: 768px) {
   .footer {
-    width: 720px;
+    width: 750px;
   }
 }
 @media (min-width: 992px) {
   .footer {
-    width: 940px;
+    width: 970px;
   }
 }
 @media (min-width: 1200px) {
   .footer {
-    width: 1140px;
+    width: 1170px;
   }
 }
