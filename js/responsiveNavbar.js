@@ -16,11 +16,11 @@ $(window).resize(function() {
   else {
     collapsedMenuIsOpen = false;
   }
-  if ($(window).width() > 750 && collapsedMenuIsOpen) {
+  if ($(window).width() > 768 && collapsedMenuIsOpen) {
     $('.navbar-collapse').removeClass('in');
     collapsedMenuWasOpen = true;
   }
-  if ($(window).width() < 750 && collapsedMenuWasOpen) {
+  if ($(window).width() < 768 && collapsedMenuWasOpen) {
     $('.navbar-collapse').addClass('in');
     collapsedMenuWasOpen = false;
   }
