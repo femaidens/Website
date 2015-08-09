@@ -442,7 +442,7 @@ else {
       constrain_width: true, // Constrains width of dropdown to the activator
       hover: false,
       gutter: 0, // Spacing from edge
-      belowOrigin: false
+      belowOrigin: true
     };
 
     this.each(function(){

@@ -6,9 +6,13 @@
  * Made By MaterializeCSS.com
  */
 
-nav ul a,
-nav .brand-logo {
+nav ul a {
   color: #444;
+}
+
+nav .brand-logo img {
+  height: 75%;
+  width: 75%;
 }
 
 p {
