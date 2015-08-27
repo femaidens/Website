@@ -424,7 +424,9 @@ else {
   };
 
   $(document).ready(function(){
+    $('.scrollspy').scrollSpy();
     $('.collapsible').collapsible();
+    $('ul.tabs').tabs();
   });
 }( jQuery ));;(function ($) {
 
