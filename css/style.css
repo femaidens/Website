@@ -6,6 +6,10 @@
  * Made By MaterializeCSS.com
  */
 
+.side-nav li ul li a, .side-nav li a {
+    font-size: 120%;
+}
+
 .card.medium {
     height: 330px; }
 
@@ -15,6 +19,7 @@
 
 nav ul a {
   color: #444;
+  font-size: 120%;
 }
 
 nav .brand-logo img {
