@@ -29,6 +29,7 @@ nav ul a {
 nav .brand-logo img {
   height: 75%;
   width: 75%;
+  padding-top: 2px;
 }
 
 p {
