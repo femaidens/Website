@@ -14,9 +14,6 @@
     font-size: 120%;
 }
 
-.card .medium {
-    height: 330px; }
-
 .footer-link a:hover {
   color: yellow;
 }
@@ -77,4 +74,12 @@ p {
 
 footer.page-footer {
   margin: 0;
+}
+
+.card.medium {
+  height: 275px; }
+  .card.medium .card-image {
+    height: 200px; }
+  .card.medium .card-content {
+    height: 75px;
 }
