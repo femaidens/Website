@@ -5540,6 +5540,7 @@ small {
     font-size: 18px;
     font-weight: 300; }
     .card .card-title.activator {
+      font-size: 24px;
       cursor: pointer; }
   .card.small, .card.medium, .card.large {
     position: relative; }
