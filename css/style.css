@@ -33,6 +33,18 @@ p {
   line-height: 2rem;
 }
 
+h2 {
+  font-size: 250%;
+}
+
+h4 {
+  font-size: 150%;
+}
+
+h5 {
+  font-size: 150%;
+}
+
 .button-collapse {
   color: #26a69a;
 }
