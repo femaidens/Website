@@ -1,4 +1,6 @@
 /* Custom Stylesheet */
+
+
 /**
  * Use this file to override Materialize files so you can update
  * the core Materialize files in the future
@@ -9,89 +11,77 @@
 .construction {
     display: none;
 }
-
 .side-nav li ul li a, .side-nav li a {
     font-size: 120%;
 }
-
 .footer-link a:hover {
-  color: yellow;
+    color: yellow;
 }
 
 nav ul a {
-  color: #444;
-  font-size: 120%;
+    color: #444;
+    font-size: 120%;
 }
 
 nav .brand-logo img {
-  height: 75%;
-  width: 75%;
-  padding-top: 2px;
+    height: 65%;
+    width: 65%;
+    padding-top: 8px;
 }
 
 p {
-  line-height: 2rem;
+    line-height: 2rem;
 }
-
 h2 {
-  font-size: 250%;
+    font-size: 250%;
 }
-
 h4 {
-  font-size: 150%;
+    font-size: 150%;
 }
-
 h5 {
-  font-size: 150%;
+    font-size: 130%;
 }
-
 .button-collapse {
-  color: #26a69a;
+    color: #26a69a;
 }
-
 .parallax-container {
-  min-height: 380px;
-  line-height: 0;
-  height: auto;
-  color: rgba(255,255,255,.9);
+    min-height: 380px;
+    line-height: 0;
+    height: auto;
+    color: rgba(255, 255, 255, .9);
 }
-
 .parallax-container .section {
-  width: 100%;
+    width: 100%;
 }
-
-@media only screen and (max-width : 992px) {
-  .parallax-container .section {
-    position: absolute;
-    top: 40%;
-  }
-  #index-banner .section {
-    top: 10%;
-  }
+@media only screen and (max-width: 992px) {
+    .parallax-container .section {
+        position: absolute;
+        top: 40%;
+    }
+    #index-banner .section {
+        top: 10%;
+    }
 }
-
-@media only screen and (max-width : 600px) {
-  #index-banner .section {
-    top: 0;
-  }
+@media only screen and (max-width: 600px) {
+    #index-banner .section {
+        top: 0;
+    }
 }
-
 .icon-block {
-  padding: 0 15px;
+    padding: 0 15px;
 }
-
 .icon-block .material-icons {
-  font-size: inherit;
+    font-size: inherit;
 }
-
 footer.page-footer {
-  margin: 0;
+    margin: 0;
 }
-
 .card.medium {
-  height: 275px; }
-  .card.medium .card-image {
-    height: 200px; }
-  .card.medium .card-content {
-    height: 75px;
+    height: 265px;
+}
+.card.medium .card-image {
+    height: 200px;
+}
+.card.medium .card-content {
+    height: 65px;
 }
