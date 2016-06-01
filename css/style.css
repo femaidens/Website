@@ -8,6 +8,15 @@
  * Made By MaterializeCSS.com
  */
 
+html {
+    font-family: "Source Sans Pro", sans-serif;
+}
+.grow {
+    transition: all .2s ease-in-out;
+}
+.grow:hover {
+    transform: scale(1.07);
+}
 .construction {
     display: none;
 }
@@ -17,28 +26,18 @@
 .footer-link a:hover {
     color: yellow;
 }
-
-.overlay
-{
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background: rgba(0,0,0, 0.5);
-    z-index: -1;
+.overlay {
+    background: rgba(100, 100, 100, 0.4);
 }
 nav ul a {
     color: #444;
     font-size: 120%;
 }
-
 nav .brand-logo img {
     height: 65%;
     width: 65%;
     padding-top: 8px;
 }
-
 p {
     line-height: 2rem;
 }
@@ -58,7 +57,7 @@ h5 {
     min-height: 380px;
     line-height: 0;
     height: auto;
-    color: rgba(255, 255, 255, .9);
+    color: rgba(255, 255, 255, 1.0);
 }
 .parallax-container .section {
     width: 100%;
