@@ -70,10 +70,22 @@ h5 {
     #index-banner .section {
         top: 10%;
     }
+    #logo {
+        width: 70%;
+        margin-left: 50px;
+        margin-top: 8px;
+    }
+    .overlay {
+        background: rgba(0, 0, 0, 0);
+    }
 }
 @media only screen and (max-width: 600px) {
     #index-banner .section {
         top: 0;
+    }
+    #logo {
+        width: 80%;
+        margin-left: 30px;
     }
 }
 .icon-block {
@@ -93,4 +105,9 @@ footer.page-footer {
 }
 .card.medium .card-content {
     height: 65px;
+}
+.waves-effect.waves-purple .waves-ripple {
+    /* The alpha value allows the text and background color
+     of the button to still show through. */
+    background-color: #9575cd;
 }
