@@ -81,21 +81,12 @@ nav .brand-logo img {
 }
 
 #nav-menu li a:hover{
-    text-shadow: 3px 0px 6px #95CD63, 0 3px 7px #95CD63;
+    text-shadow: 3px 0px 6px #95CD63, 0 3px 7px #653A9D;
 }
 
 #nav-menu li{
     height: 59px;
 }
-
-/*#nav-menu li ul{
-    position: absolute; 
-    top: 60px; 
-    width: 136px; 
-    left: 0px; 
-    opacity: 1; 
-    display: block;
-}*/
 
 p {
     line-height: 2rem;
