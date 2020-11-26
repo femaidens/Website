@@ -4,7 +4,7 @@
  * MIT License (https://raw.githubusercontent.com/Dogfalo/materialize/master/LICENSE)
  */
 
-.materialize-red.lighten-5 {
+ .materialize-red.lighten-5 {
     background-color: #fdeaeb !important
 }
 .materialize-red-text.text-lighten-5 {
@@ -5981,7 +5981,7 @@ button.btn-floating {
     opacity: 0;
     position: absolute;
     z-index: 999;
-    will-change: width, height
+    will-change: width, height;
 }
 .dropdown-content li {
     clear: both;

@@ -4,7 +4,7 @@
  * MIT License (https://raw.githubusercontent.com/Dogfalo/materialize/master/LICENSE)
  */
 
-.materialize-red.lighten-5 {
+ .materialize-red.lighten-5 {
     background-color: #fdeaeb !important;
 }
 .materialize-red-text.text-lighten-5 {
@@ -5620,7 +5620,8 @@ nav .brand-logo.right {
     padding: 0;
 }
 nav ul {
-    margin: 0;
+    /* margin: 0; */
+    margin-top: 50px;
 }
 nav ul li {
     -webkit-transition: background-color .3s;
@@ -5631,14 +5632,15 @@ nav ul li {
     float: left;
     padding: 0;
 }
+
 nav ul li:hover, nav ul li.active {
-    background-color: rgba(0, 0, 0, 0.1);
+    background-color: transparent;
 }
 nav ul a {
     font-size: 1rem;
     color: #fff;
     display: block;
-    padding: 0 15px;
+    padding: 0 30px;
 }
 nav a:hover {
     text-decoration: none;
@@ -6349,6 +6351,7 @@ button.btn-floating {
     width: 100%;
     text-align: left;
     text-transform: none;
+    
 }
 .dropdown-content li:hover, .dropdown-content li.active {
     background-color: #724FAF;
@@ -6416,6 +6419,7 @@ button.btn-floating {
     -o-transform: scale(0);
     transform: scale(0);
     pointer-events: none;
+    
 }
 .waves-effect.waves-light .waves-ripple {
     background-color: rgba(255, 255, 255, 0.45);
